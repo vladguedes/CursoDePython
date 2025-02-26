@@ -4,9 +4,7 @@ a = 'AAAAA'
 b = 'BBBBB'
 c = 1.1
 string = 'A={nome2} B={0} C={nome2} D={nome3:.2f} E={0}'
-formato = string.format(
-    a, nome2=b, nome3=c
-)
+formato = string.format(a, nome2=b, nome3=c)
 
 print(formato)
 
